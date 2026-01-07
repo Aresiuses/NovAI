@@ -45,12 +45,12 @@ const VideoSection = () => {
               />
             )}
           </div>
-          <p className="video-description">
+        </div>
+      </div>
+      <p className="video-description">
             Watch our company introduction video to learn more about our journey 
             as CS graduates and the AI solutions we build.
           </p>
-        </div>
-      </div>
     </section>
   );
 };
