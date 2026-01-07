@@ -48,8 +48,7 @@ const VideoSection = () => {
         </div>
       </div>
       <p className="video-description">
-            Watch our company introduction video to learn more about our journey 
-            as CS graduates and the AI solutions we build.
+            (Yes, we did just rickrolled you.)
           </p>
     </section>
   );
