@@ -80,3 +80,17 @@
   color: #2563eb;
   margin-left: 4px;
 }
+
+.rickroll-text {
+  margin-top: 15px;
+  font-style: italic;
+  color: #718096;
+  text-align: center;
+  font-weight: 500;
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
