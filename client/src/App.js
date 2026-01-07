@@ -30,8 +30,8 @@ function App() {
       <Home />
       <About />
       <Services />
-      <VideoSection />
       <Team />
+      <VideoSection />
       <Footer />
     </div>
   );
