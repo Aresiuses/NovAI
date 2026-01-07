@@ -14,7 +14,7 @@ function App() {
 
   useEffect(() => {
     // Replace with your Vercel Server URL after deployment
-    fetch('http://localhost:5000/api/status') 
+    fetch('https://nov-egj9615s1-adel-rahmans-projects.vercel.app') 
       .then(res => res.json())
       .then(data => setServerStatus(data.message))
       .catch(err => setServerStatus("Server Offline"));
