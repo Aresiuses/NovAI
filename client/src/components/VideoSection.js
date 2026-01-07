@@ -45,11 +45,11 @@ const VideoSection = () => {
               />
             )}
           </div>
+          {isPlaying && (
+            <p className="rickroll-text">(yes, we did just rickrolled you)</p>
+          )}
         </div>
       </div>
-      <p className="video-description">
-            (Yes, we did just rickrolled you.)
-          </p>
     </section>
   );
 };
