@@ -7,10 +7,11 @@ app.use(cors());
 app.use(express.json());
 
 // Basic route to test the server
-app.get('/', (req, res) => {
-  res.send('IT Company Server is running!');
+app.get('/api/status', (req, res) => {
+  res.json({ message: "NovAI Server is Online" });
 });
 
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
+
